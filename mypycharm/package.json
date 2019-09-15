@@ -1,0 +1,21 @@
+{
+    "name": "mypycharm",
+    "displayName": "myPyCharm",
+    "description": "PyCharm Color Scheme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PyCharm Color Scheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PyCharm Color Scheme-color-theme.json"
+            }
+        ]
+    }
+}

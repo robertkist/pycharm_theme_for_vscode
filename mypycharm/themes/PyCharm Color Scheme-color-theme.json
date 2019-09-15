@@ -1,0 +1,470 @@
+{
+	// A VS Codium color scheme based on PyCharm's Darcula scheme on OS X.
+	// Supports:
+	//	.gitignore
+	//	* .go   Golang
+	//	* .yml  Yaml
+	//	* .mel  Maya MEL
+	//	* .py   Python
+	//	* Dockerfile
+	//	* .sh   Bash / Shell Script
+	//	* .xml  XML
+	//	* .sql  SQL
+	//  * .ini  Windows ini files
+	//	* .bat  DOS Batch
+	//	* .json JSON
+	//	* .html HTML
+	//  * .css  CSS
+	//  * .lua	Lua
+	//  * .java Java
+	//	* .php	PHP
+	//  * .cbl  Cobol
+	//  * .cpp	C / C++
+	//  * .plist
+	//	* .pl	Perl
+	//  * .js   JavaScript
+	//	* .ms   3ds Max Script (MXS)
+	//  * .cs	C#
+	//  * .vex  Houdini VEX
+	//  * .md   Markup
+	// hlsl
+	// Postgresql
+
+	"name": "PyCharm Color Scheme",
+	"type": "light",
+	"colors": {
+		"editor.background": "#303030",
+		"editor.foreground": "#ff00ff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+ 		// text: organge - LANGUAGE KEYWORDS, PUNCTUATION
+		 {
+			"name": "orange",
+			"scope": [
+				// general
+				"keyword.control.flow",
+				"keyword.control.import",
+				"keyword.operator.logical",
+				"keyword.operator.unpacking.parameter",
+				"keyword.control.conditional",
+				"keyword.control.statement",
+				"keyword.control.switch",
+				"keyword.control.loop",
+				"keyword.control.trycatch",
+				"keyword.operator.new",
+				"storage.type.function",
+				"storage.type.class",
+				"constant.language",
+				"constant.character.escape",
+				"punctuation.separator.parameter",
+				"punctuation.separator.comma",
+				"punctuation.terminator.statement",
+				"punctuation.other.comma",
+				// lua
+				"keyword.control.lua",
+				"support.function.any-method.lua",
+				// shell script
+				"keyword.control.shell",
+				"keyword.operator.pipe.shell",
+				"keyword.operator.redirect.shell",
+				"keyword.operator.logical.shell",
+				"keyword.operator.list.shell",
+				"storage.type.function.shell",
+				// go
+				"keyword.function.go",
+				"keyword.package.go",
+				"keyword.import.go",
+				"keyword.map.go",
+				"keyword.control.go",
+				"keyword.const.go",
+				"keyword.function.go",
+				"keyword.var.go",
+				"keyword.type.go",
+				"keyword.struct.go",
+				"keyword.interface.go",
+				"keyword.channel.go",
+				"keyword.operator.address.go",
+				"keyword.operator.logical.go",
+				"punctuation.terminator.go",
+				"punctuation.other.comma.go",
+				"constant.language.go",
+				// python
+				"punctuation.separator.arguments.python",
+				// json
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.separator.array.json",
+				// dos batch
+				"punctuation.separator.batchfile",
+				// mel
+				"keyword.other.mel",
+				"keyword.control.mel",
+				// dos batch
+				"keyword.command.batchfile",
+				"keyword.other.special-method.batchfile",
+				"keyword.operator.at.batchfile",
+				//sql
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.authorization.sql",
+				"keyword.other.DDL.create.II.sql",
+				// dockerfile
+				"keyword.other.special-method.dockerfile",
+				// yaml
+				"entity.name.tag.yaml",
+				// ini / cfg file
+				"punctuation.definition.entity.ini",
+				"keyword.other.definition.ini",
+				// javascript
+				"storage.type.js",
+				// apache
+				"keyword.core.apacheconf",
+				"keyword.rewrite.apacheconf",
+				"keyword.mime.apacheconf",
+				// java
+				"storage.modifier.java",
+				"keyword.other.package.java",
+				"keyword.other.import.java",
+				"keyword.control.java",
+				"keyword.control.new.java",
+				"punctuation.terminator.java",
+				"punctuation.separator.delimiter.java",
+				// php
+				"keyword.other.new.php",
+				"keyword.control.if.php",
+				"keyword.control.else.php",
+				"keyword.control.for.php",
+				"keyword.control.elseif.php",
+				"keyword.control.while.php",
+				"keyword.control.return.php",
+				"keyword.control.exit.php",
+				"keyword.control.exception.php",
+				"keyword.control.exception.catch.php",
+				"keyword.control.foreach.php",
+				"keyword.other.namespace.php",
+				"keyword.other.use.php",
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.separator.delimiter.php",
+				"punctuation.terminator.expression.php",
+				"storage.modifier.php",
+				// cpp
+				"keyword.control.for",
+				"keyword.control.case",
+				"keyword.control.break",
+				"keyword.control.if",
+				"keyword.control.else",
+				"keyword.control.return",
+				"keyword.control.while",
+				"punctuation.definition.directive.cpp",
+				"keyword.control.directive.include.cpp",
+				"keyword.operator.cpp",
+				// Cobol
+				"keyword.identifiers.cobol",
+				"keyword.identifers.cobol",
+				"keyword.verb.cobol",
+				"keyword.verbs.cobol",
+				// Perl
+				"keyword.control.perl",
+				"storage.modifier.perl",
+				"storage.type.sub.perl",
+				"support.function.perl",
+				// msx
+				"storage.modifier.maxscript",
+				"keyword.control.maxscript",
+				"entity.type.function.maxscript",
+				"entity.type.event.maxscript",
+				"support.other.primitive.maxscript",
+				// c#
+				"keyword.other.using.cs",
+				"keyword.other.class.cs",
+				"punctuation.separator.hash.cs",
+				// markup
+				"markup.heading",
+				"punctuation.definition.list.begin.markdown",
+				"meta.embedded.block.shellscript",
+				// hlsl
+				"keyword.control.hlsl",
+				"storage.type.fx.technique.hlsl",
+				"support.variable.semantic.hlsl",
+				"support.constant.property-value.fx.hlsl"
+			],
+			"settings": {
+				"foreground": "#cc7832"
+			}
+		},
+		// text: dark purple - SELF, THIS
+		{
+			"name": "dark_purple",
+			"scope": [
+				// general
+				"variable.language.this",
+				// python
+				"variable.parameter.function.language.special.self",
+				"variable.language.special.self"
+			],
+			"settings": {
+				"foreground": "#94558d"
+			}
+		},
+		// text: yellow - FUNCTIONS
+		{
+			"name": "yellow",
+			"scope": [
+				// general
+				"entity.name.function",
+				"entity.name.type.class",
+				// golang
+				"entity.name.function.go",
+				"entity.name.type.go",
+				// html, xml
+				"entity.name.tag",
+				"punctuation.definition.tag",
+				// ts (qtranslator)
+				"entity.name.type.ts",
+				"keyword.operator.relational.ts",
+				"meta.brace.angle.ts",
+				"variable.other.readwrite.ts",
+				"keyword.operator.ternary.ts",
+				"keyword.operator.arithmetic.ts",
+				"cast.expr.ts",
+				"variable.other.constant.ts",
+				// css
+				"punctuation.definition.entity.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.id.css",
+				// shell script
+				"entity.name.function.shell",
+				// conf / ini
+				"entity.name.section.group-title.ini",
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		// text: bright purple - __init__, MAGIC FUNCTIONS
+		{
+			"name": "bright_purple",
+			"scope": [
+				// general
+				"support.function.magic",
+			],
+			"settings": {
+				"foreground": "#b200b2"
+			}
+		},
+		// text: purple blue - SUPPORT TYPES, DATA TYPES
+		{
+			"name": "purple_blue",
+			"scope": [
+				// general
+				"support.type",
+				"support.type.exception",
+				"support.function.builtin.go",
+				"support.function.go",
+				// mel
+				"support.function.mel",
+				"storage.type.mel",
+				// shell script
+				"support.function.builtin.shell",
+				// java
+				"storage.type.primitive.java",
+				"storage.type.primitive.array.java",
+				"storage.type.java",
+				// cpp
+				"storage.type.primitive.cpp",
+				// c#
+				"storage.modifier.cs",
+				"keyword.type.cs",
+				// hlsl
+				"storage.type.basic.hlsl",
+				"storage.type.structured.hlsl"
+			],
+			"settings": {
+				"foreground": "#8888c6"
+			}
+		},
+		// text: dark green - STRINGS
+		{
+			"name": "dark_green",
+			"scope": [
+				// general
+				"string.quoted",
+				// perl
+				"punctuation.definition.heredoc.perl",
+				"string.unquoted.heredoc.perl",
+				"punctuation.definition.string.perl"
+			],
+			"settings": {
+				"foreground": "#6a8759"
+			}
+		},
+		// text: dark grey - COMMENTS
+		{
+			"name": "dark_grey",
+			"scope": [
+				// general
+				"comment.line.number-sign",
+				"comment.block",
+				"comment.line.double-dash",
+				"comment.line.double-slash",
+				// css
+				"comment.block.css",
+				// dos batch
+				"keyword.command.rem.batchfile",
+				"comment.line.rem.batchfile",
+				// sql
+				"comment.block.c",
+				"comment.line.double-dash.sql",
+				// apache
+				"comment.line.hash.ini",
+				// cpp
+				"comment.line.banner",
+				// mxs
+				"comment.line.maxscript",
+				// markup
+				"punctuation.definition.raw.markdown",
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.markdown",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#808080"
+			}
+		},
+		// text: bright green - TODO COMMENTS
+		{
+			"name": "bright_green",
+			"scope": [
+				"keyword.codetag.notation"
+			],
+			"settings": {
+				"foreground": "#a8c023"
+			}
+		},
+		// text: light green - DOCSTRINGS
+		{
+			"name": "light_green",
+			"scope": [
+				// python docstring
+				"string.quoted.docstring.multi",
+				// yaml
+				"comment.line.number-sign.yaml",
+				// go
+				"comment.block.go"
+			],
+			"settings": {
+				"foreground": "#629755"
+			}
+		},
+		// text: medium green - NUMBERS
+		{
+			"name": "light_blue",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#7bb063"
+			}
+		},
+		// text: light blue - VARIABLES
+		{
+			"name": "light_blue",
+			"scope": [
+				"punctuation.definition.variable",
+				"variable.other",
+				// go
+				"storage.type.string.go",
+				"storage.type.numeric.go",
+				"storage.type.error.go",
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				// dos batch
+				"punctuation.definition.variable.batchfile",
+				"punctuation.definition.variable.begin.batchfile",
+				"punctuation.definition.variable.end.batchfile",
+				"variable.parameter.batchfile",
+				"variable.other.readwrite.batchfile",
+				// mel
+				"punctuation.definition.variable.mel",
+				"variable.other.mel"
+			],
+			"settings": {
+				"foreground": "#6897bb"
+			}
+		},
+		// text: dark red - NAMED PARAMETERS
+		{
+			"name": "dark_red",
+			"scope": [
+				"variable.parameter.function-call",
+				"variable.parameter.function.language",
+				// css
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css"
+			],
+			"settings": {
+				"foreground": "#aa4926"
+			}
+		},
+		// text: green yellow - DECORATORS
+		{
+			"name": "green_yellow",
+			"scope": [
+				// python
+				"entity.name.function.decorator",
+				// java
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#bbb529"
+			}
+		},
+		// text: near white - SHEBANG
+		{
+			"name": "near_white",
+			"scope": [
+				"comment.line.number-sign.shebang"
+			],
+			"settings": {
+				"foreground": "#f0f0f0"
+			}
+		},
+		// text: light grey/blue - DEFAULT TEXT COLOR
+		{
+			"name": "light_grey_blue",
+			"scope": [
+				"source.python",
+				"source.yaml",
+				"source.shell",
+				"source.dockerfile",
+				"source.sql",
+				"source.json",
+				"text.xml",
+				"source.go",
+				"source.ignore",
+				"source.batchfile",
+				"text.html",
+				"source.js",
+				"source.mel",
+				"source.css",
+				"source.ini",
+				"source.apacheconf",
+				"source.ts",
+				"source.lua",
+				"source.java",
+				"source.cpp",
+				"source.cobol",
+				"source.perl",
+				"source.mxs",
+				"source.cs",
+				"source.hlsl"
+			],
+			"settings": {
+				"foreground": "#a9b7c6"
+			}
+		}
+	]
+}
