@@ -30,13 +30,23 @@
 	// hlsl
 	// Postgresql
 
+	// Color reference: https://code.visualstudio.com/api/references/theme-color
+
 	"name": "PyCharm Color Scheme",
 	"type": "light",
 	"colors": {
 		"editor.background": "#303030",
 		"editor.foreground": "#ff00ff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"editorIndentGuide.background": "#474747",
+		"editorRuler.foreground": "#373737",
+		"editorLineNumber.foreground": "#606366",
+		"sideBar.background": "#333333",
+		"statusBar.background" : "#2A2A2A",
+		"statusBar.foreground" : "#c4c4c4",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238",
 	},
 	"tokenColors": [
  		// text: organge - LANGUAGE KEYWORDS, PUNCTUATION
@@ -405,7 +415,7 @@
 				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
-				"foreground": "#aa4926"
+				"foreground": "#ca5936"
 			}
 		},
 		// text: green yellow - DECORATORS
