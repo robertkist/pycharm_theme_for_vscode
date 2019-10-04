@@ -36,7 +36,7 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#303030",
-		"editor.foreground": "#ff00ff",
+		"editor.foreground": "#a9b7c6",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorIndentGuide.background": "#474747",
