@@ -33,23 +33,55 @@
 	// Color reference: https://code.visualstudio.com/api/references/theme-color
 
 	"name": "PyCharm Color Scheme",
-	"type": "light",
+	"type": "dark",
 	"colors": {
-		"editor.background": "#303030",
-		"editor.foreground": "#a9b7c6",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"editorIndentGuide.background": "#474747",
+		"widget.shadow": "#ff0000",
+		"foreground": "#ff0000",
+		"descriptionForeground": "#ff0000",
+		"errorForeground": "#ff0000",
+		"button.foreground": "#ff0000",
+		"checkbox.foreground": "#ff0000",
+
+
+		// text editor
+		"editor.background": "#f0f0f0",
+		"editor.foreground": "#333333",
 		"editorRuler.foreground": "#373737",
-		"editorLineNumber.foreground": "#606366",
-		"sideBar.background": "#333333",
-		"statusBar.background" : "#2A2A2A",
-		"statusBar.foreground" : "#c4c4c4",
-        "statusBar.noFolderBackground" : "#212121",
-        "statusBar.debuggingBackground": "#263238",
+		"editorLineNumber.foreground": "#999999",
+		"editorIndentGuide.background": "#cccccc",
+        "editorBracketMatch.background": "#f008",
+		"editorBracketMatch.border": "#f008",
+
+		// tabs on top of editor
+		"editorGroupHeader.tabsBackground": "#cccccc",
+		"tab.activeForeground": "#eeeeee",
+		"tab.activeBackground": "#51698a",
+		"tab.inactiveBackground": "#cccccc",
+		"tab.inactiveForeground": "#383838",
+		"tab.border": "#aaaaaa",
+		"breadcrumb.foreground": "#686868",
+
+		// left hand side bar
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#151515",
+		"sideBar.background": "#e1e1e1",
+		"sideBar.foreground": "#151515",
+
+		// bottom status bar
+		"statusBar.background" : "#bfbfbf",
+		"statusBar.foreground" : "#383838",
+        "statusBar.noFolderBackground" : "#e1e1e1",
+		"statusBar.debuggingBackground": "#e1e1e1",
+
+		// left hand side folder list
+		"list.hoverBackground": "#bfbfbf",
+		"list.activeSelectionBackground": "#51698a",
+		"list.inactiveSelectionBackground":"#51698a",
+		"list.inactiveSelectionForeground":"#eeeeee",
+		"tree.indentGuidesStroke": "#ff0000",
 	},
 	"tokenColors": [
- 		// text: organge - LANGUAGE KEYWORDS, PUNCTUATION
+ 		// FIXED text: organge - LANGUAGE KEYWORDS, PUNCTUATION
 		 {
 			"name": "orange",
 			"scope": [
@@ -201,10 +233,10 @@
 				"support.constant.property-value.fx.hlsl"
 			],
 			"settings": {
-				"foreground": "#cc7832"
+				"foreground": "#cc6300"
 			}
 		},
-		// text: dark purple - SELF, THIS
+		// FIXED text: dark purple - SELF, THIS
 		{
 			"name": "dark_purple",
 			"scope": [
@@ -215,10 +247,10 @@
 				"variable.language.special.self"
 			],
 			"settings": {
-				"foreground": "#94558d"
+				"foreground": "#700664"
 			}
 		},
-		// text: yellow - FUNCTIONS
+		// FIXED text: yellow - FUNCTIONS
 		{
 			"name": "yellow",
 			"scope": [
@@ -250,10 +282,10 @@
 				"entity.name.section.group-title.ini",
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#a78b0f"
 			}
 		},
-		// text: bright purple - __init__, MAGIC FUNCTIONS
+		// FIXED text: bright purple - __init__, MAGIC FUNCTIONS
 		{
 			"name": "bright_purple",
 			"scope": [
@@ -261,10 +293,10 @@
 				"support.function.magic",
 			],
 			"settings": {
-				"foreground": "#b200b2"
+				"foreground": "#aa03aa"
 			}
 		},
-		// text: purple blue - SUPPORT TYPES, DATA TYPES
+		// FIXED text: purple blue - SUPPORT TYPES, DATA TYPES
 		{
 			"name": "purple_blue",
 			"scope": [
@@ -292,10 +324,10 @@
 				"storage.type.structured.hlsl"
 			],
 			"settings": {
-				"foreground": "#8888c6"
+				"foreground": "#7373b1"
 			}
 		},
-		// text: dark green - STRINGS
+		// FIXED text: dark green - STRINGS
 		{
 			"name": "dark_green",
 			"scope": [
@@ -307,10 +339,10 @@
 				"punctuation.definition.string.perl"
 			],
 			"settings": {
-				"foreground": "#6a8759"
+				"foreground": "#486934"
 			}
 		},
-		// text: dark grey - COMMENTS
+		// FIXED text: dark grey - COMMENTS
 		{
 			"name": "dark_grey",
 			"scope": [
@@ -340,7 +372,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#808080"
+				"foreground": "#503c25"
 			}
 		},
 		// text: bright green - TODO COMMENTS
@@ -368,17 +400,17 @@
 				"foreground": "#629755"
 			}
 		},
-		// text: medium green - NUMBERS
+		// FIXED text: medium green - NUMBERS
 		{
 			"name": "light_blue",
 			"scope": [
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#7bb063"
+				"foreground": "#65ad44"
 			}
 		},
-		// text: light blue - VARIABLES
+		// FIXED text: light blue - VARIABLES
 		{
 			"name": "light_blue",
 			"scope": [
@@ -401,10 +433,10 @@
 				"variable.other.mel"
 			],
 			"settings": {
-				"foreground": "#6897bb"
+				"foreground": "#4078a3"
 			}
 		},
-		// text: dark red - NAMED PARAMETERS
+		// FIXED text: dark red - NAMED PARAMETERS
 		{
 			"name": "dark_red",
 			"scope": [
@@ -415,7 +447,7 @@
 				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
-				"foreground": "#ca5936"
+				"foreground": "#860b02"
 			}
 		},
 		// text: green yellow - DECORATORS
@@ -429,20 +461,20 @@
 				"storage.type.annotation.java"
 			],
 			"settings": {
-				"foreground": "#bbb529"
+				"foreground": "#a09b02"
 			}
 		},
-		// text: near white - SHEBANG
+		// FIXED text: near white - SHEBANG
 		{
 			"name": "near_white",
 			"scope": [
 				"comment.line.number-sign.shebang"
 			],
 			"settings": {
-				"foreground": "#f0f0f0"
+				"foreground": "#000000"
 			}
 		},
-		// text: light grey/blue - DEFAULT TEXT COLOR
+		// FIXED text: light grey/blue - DEFAULT TEXT COLOR
 		{
 			"name": "light_grey_blue",
 			"scope": [
@@ -473,7 +505,7 @@
 				"source.hlsl"
 			],
 			"settings": {
-				"foreground": "#a9b7c6"
+				"foreground": "#383838"
 			}
 		}
 	]
