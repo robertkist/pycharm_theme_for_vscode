@@ -4,7 +4,7 @@
     "description": "PyCharm Color Scheme",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.38.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
@@ -13,7 +13,7 @@
         "themes": [
             {
                 "label": "PyCharm Color Scheme",
-                "uiTheme": "vs-dark",
+                "uiTheme": "vs",
                 "path": "./themes/PyCharm Color Scheme-color-theme.json"
             }
         ]

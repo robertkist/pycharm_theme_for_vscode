@@ -33,15 +33,17 @@
 	// Color reference: https://code.visualstudio.com/api/references/theme-color
 
 	"name": "PyCharm Color Scheme",
-	"type": "dark",
+	"type": "light",
 	"colors": {
-		"widget.shadow": "#ff0000",
-		"foreground": "#ff0000",
-		"descriptionForeground": "#ff0000",
-		"errorForeground": "#ff0000",
-		"button.foreground": "#ff0000",
-		"checkbox.foreground": "#ff0000",
-
+		"editor.inactiveSelectionBackground": "#E5EBF1",
+		"editorIndentGuide.activeBackground": "#939393",
+		"editor.selectionHighlightBackground": "#ADD6FF80",
+		"editorSuggestWidget.background": "#F3F3F3",
+     	"input.placeholderForeground": "#767676",
+		"settings.textInputBorder": "#CECECE",
+		"settings.numberInputBorder": "#CECECE",
+		"statusBarItem.remoteForeground": "#FFF",
+		"statusBarItem.remoteBackground": "#16825D",
 
 		// text editor
 		"editor.background": "#f0f0f0",
@@ -56,9 +58,9 @@
 		"editorGroupHeader.tabsBackground": "#cccccc",
 		"tab.activeForeground": "#eeeeee",
 		"tab.activeBackground": "#51698a",
-		"tab.inactiveBackground": "#cccccc",
+		"tab.inactiveBackground": "#e1e1e1",
 		"tab.inactiveForeground": "#383838",
-		"tab.border": "#aaaaaa",
+		"tab.border": "#cccccc",
 		"breadcrumb.foreground": "#686868",
 
 		// left hand side bar
@@ -68,7 +70,7 @@
 		"sideBar.foreground": "#151515",
 
 		// bottom status bar
-		"statusBar.background" : "#bfbfbf",
+		"statusBar.background" : "#d2d2d2",
 		"statusBar.foreground" : "#383838",
         "statusBar.noFolderBackground" : "#e1e1e1",
 		"statusBar.debuggingBackground": "#e1e1e1",
@@ -78,10 +80,9 @@
 		"list.activeSelectionBackground": "#51698a",
 		"list.inactiveSelectionBackground":"#51698a",
 		"list.inactiveSelectionForeground":"#eeeeee",
-		"tree.indentGuidesStroke": "#ff0000",
 	},
 	"tokenColors": [
- 		// FIXED text: organge - LANGUAGE KEYWORDS, PUNCTUATION
+ 		// text: organge - LANGUAGE KEYWORDS, PUNCTUATION
 		 {
 			"name": "orange",
 			"scope": [
@@ -233,10 +234,10 @@
 				"support.constant.property-value.fx.hlsl"
 			],
 			"settings": {
-				"foreground": "#cc6300"
+				"foreground": "#c70808"
 			}
 		},
-		// FIXED text: dark purple - SELF, THIS
+		// text: dark purple - SELF, THIS
 		{
 			"name": "dark_purple",
 			"scope": [
@@ -247,10 +248,10 @@
 				"variable.language.special.self"
 			],
 			"settings": {
-				"foreground": "#700664"
+				"foreground": "#3165c5"
 			}
 		},
-		// FIXED text: yellow - FUNCTIONS
+		// text: yellow - FUNCTIONS
 		{
 			"name": "yellow",
 			"scope": [
@@ -282,10 +283,10 @@
 				"entity.name.section.group-title.ini",
 			],
 			"settings": {
-				"foreground": "#a78b0f"
+				"foreground": "#1e6f94"
 			}
 		},
-		// FIXED text: bright purple - __init__, MAGIC FUNCTIONS
+		// text: bright purple - __init__, MAGIC FUNCTIONS
 		{
 			"name": "bright_purple",
 			"scope": [
@@ -293,10 +294,10 @@
 				"support.function.magic",
 			],
 			"settings": {
-				"foreground": "#aa03aa"
+				"foreground": "#3165c5"
 			}
 		},
-		// FIXED text: purple blue - SUPPORT TYPES, DATA TYPES
+		// text: purple blue - SUPPORT TYPES, DATA TYPES
 		{
 			"name": "purple_blue",
 			"scope": [
@@ -324,10 +325,10 @@
 				"storage.type.structured.hlsl"
 			],
 			"settings": {
-				"foreground": "#7373b1"
+				"foreground": "#9100d4e1"
 			}
 		},
-		// FIXED text: dark green - STRINGS
+		// text: dark green - STRINGS
 		{
 			"name": "dark_green",
 			"scope": [
@@ -339,10 +340,10 @@
 				"punctuation.definition.string.perl"
 			],
 			"settings": {
-				"foreground": "#486934"
+				"foreground": "#499708"
 			}
 		},
-		// FIXED text: dark grey - COMMENTS
+		// text: dark grey - COMMENTS
 		{
 			"name": "dark_grey",
 			"scope": [
@@ -372,7 +373,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#503c25"
+				"foreground": "#9c938a"
 			}
 		},
 		// text: bright green - TODO COMMENTS
@@ -382,8 +383,9 @@
 				"keyword.codetag.notation"
 			],
 			"settings": {
-				"foreground": "#a8c023"
-			}
+				"fontStyle": "italic",
+				"foreground": "#ff0000",
+				}
 		},
 		// text: light green - DOCSTRINGS
 		{
@@ -397,20 +399,21 @@
 				"comment.block.go"
 			],
 			"settings": {
-				"foreground": "#629755"
+				"fontStyle": "italic",
+				"foreground": "#048600"
 			}
 		},
-		// FIXED text: medium green - NUMBERS
+		// text: medium green - NUMBERS
 		{
 			"name": "light_blue",
 			"scope": [
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#65ad44"
+				"foreground": "#2846ee"
 			}
 		},
-		// FIXED text: light blue - VARIABLES
+		// DONE text: light blue - VARIABLES
 		{
 			"name": "light_blue",
 			"scope": [
@@ -433,10 +436,11 @@
 				"variable.other.mel"
 			],
 			"settings": {
-				"foreground": "#4078a3"
+				//"foreground": "#4078a3"
+				"foreground": "#267f99",
 			}
 		},
-		// FIXED text: dark red - NAMED PARAMETERS
+		// text: dark red - NAMED PARAMETERS
 		{
 			"name": "dark_red",
 			"scope": [
@@ -447,7 +451,7 @@
 				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
-				"foreground": "#860b02"
+				"foreground": "#830000"
 			}
 		},
 		// text: green yellow - DECORATORS
@@ -456,15 +460,16 @@
 			"scope": [
 				// python
 				"entity.name.function.decorator",
+				"meta.function.decorator.python",
 				// java
 				"punctuation.definition.annotation.java",
 				"storage.type.annotation.java"
 			],
 			"settings": {
-				"foreground": "#a09b02"
+				"foreground": "#9100d4e1"
 			}
 		},
-		// FIXED text: near white - SHEBANG
+		// text: near white - SHEBANG
 		{
 			"name": "near_white",
 			"scope": [
@@ -474,7 +479,7 @@
 				"foreground": "#000000"
 			}
 		},
-		// FIXED text: light grey/blue - DEFAULT TEXT COLOR
+		// DONE text: light grey/blue - DEFAULT TEXT COLOR
 		{
 			"name": "light_grey_blue",
 			"scope": [
@@ -502,10 +507,11 @@
 				"source.perl",
 				"source.mxs",
 				"source.cs",
-				"source.hlsl"
+				"source.hlsl",
+				"meta.function-call.arguments.python"
 			],
 			"settings": {
-				"foreground": "#383838"
+				"foreground": "#282828"
 			}
 		}
 	]
