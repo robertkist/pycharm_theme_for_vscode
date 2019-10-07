@@ -32,7 +32,7 @@
 
 	// Color reference: https://code.visualstudio.com/api/references/theme-color
 
-	"name": "PyCharm Color Scheme",
+	"name": "PyCharm Color Scheme Light",
 	"type": "light",
 	"colors": {
 		"editor.inactiveSelectionBackground": "#E5EBF1",

@@ -1,7 +1,7 @@
 {
-    "name": "mypycharm",
-    "displayName": "myPyCharm",
-    "description": "PyCharm Color Scheme",
+    "name": "mypycharm_light",
+    "displayName": "myPyCharmLight",
+    "description": "PyCharm Color Scheme Light",
     "version": "0.0.1",
     "engines": {
         "vscode": "*"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "PyCharm Color Scheme",
+                "label": "PyCharm Color Scheme Light",
                 "uiTheme": "vs",
-                "path": "./themes/PyCharm Color Scheme-color-theme.json"
+                "path": "./themes/PyCharm Color Scheme Light-color-theme.json"
             }
         ]
     }
