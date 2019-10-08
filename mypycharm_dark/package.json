@@ -1,7 +1,7 @@
 {
-    "name": "mypycharm",
-    "displayName": "myPyCharm",
-    "description": "PyCharm Color Scheme",
+    "name": "mypycharmdark",
+    "displayName": "myPyCharmDark",
+    "description": "PyCharm Color Scheme Dark",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.38.0"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "PyCharm Color Scheme",
+                "label": "PyCharm Color Scheme Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/PyCharm Color Scheme-color-theme.json"
+                "path": "./themes/PyCharm Color Scheme Dark-color-theme.json"
             }
         ]
     }
